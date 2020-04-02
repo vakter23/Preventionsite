@@ -1,0 +1,158 @@
+body{
+	background-color: black;
+	color: white;	
+	font-family: Noto Sans, sans-serif;
+	
+}
+
+
+/* ****************************************************
+**************le MENU DE NAVIGATION******************* 
+*******************************************************/
+nav{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	word-spacing: 25px;
+	border-color: green;
+	font-size: 20px;
+}
+
+.menunav{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 25px;
+	padding-left: 35px;
+}
+
+.menunav:hover{
+	color: green;
+}
+
+nav:hover{
+	color: green;
+	cursor: pointer;
+}
+
+#contactt{
+	float: right;
+}
+
+/* ****************************************************
+**************LE MAIN**********************************
+*******************************************************/
+main{
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+/*Les liens */
+#lienvid{
+	font-weight:bold;
+	text-decoration: none;
+	color: white;
+}
+#lienvid:hover{
+	color: green;
+	cursor: pointer;
+}
+
+li a{
+	font-weight:bold;
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	color: green;
+	cursor: pointer;
+}
+/*Les auteurs*/
+span{
+	font-style: italic;
+
+}
+
+/*Centreage de la video et dimension*/
+video{
+
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display:block;
+}
+
+/*BORDURES DES 3 PARTIES*/
+.video{
+
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 30px;
+	margin-top: 20px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+}
+
+.article{
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+}
+
+.videoimpo{
+	width: 40%;
+	float: right;
+	padding-left: 10px;
+	padding-right: 30px;
+
+	margin-top: 20px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+}
+
+/*Ligne qui sépare le reste du footer*/
+.bordure {
+	border-bottom:1px solid white;
+	width: 90%;
+	margin-left: 5%;	
+	clear: both;
+
+}
+
+/* ****************************************************
+**************LE FOOTER********************************
+*******************************************************/
+
+footer{
+	color: white;
+	text-align : center;	
+	width: 100%;
+	clear: both;
+}
+footer p{
+	width: 100%;
+}
+
+/* LIEN POUR NOUS CONTACTER */
+footer a {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+footer a:hover{
+	color: green;
+	cursor: pointer;
+	width: 100%;
+}

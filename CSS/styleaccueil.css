@@ -1,0 +1,184 @@
+body{
+	background-color: black;
+	color: white;	
+	font-family: Noto Sans, sans-serif;
+
+}
+
+/* ****************************************************
+**************le MENU DE NAVIGATION******************* 
+*******************************************************/
+nav{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	word-spacing: 25px;
+	border-color: green;
+	font-size: 20px;
+
+
+}
+.menunav{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 25px;
+	padding-left: 35px;
+}
+.menunav:hover{
+	color: green;
+}
+nav:hover{
+	color: green;
+	cursor: pointer;
+}
+#contactt{
+	float: right;
+}
+
+
+
+/* ****************************************************
+**************LE MAIN**********************************
+*******************************************************/
+
+main{
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 50%;
+	height: 20%;
+	margin-bottom: 2%;
+}
+
+
+
+
+/*PROBLEMATIQUE*/
+h1{
+	text-align: center;
+	font-size: 35px;
+	text-decoration: underline;
+	font-style: italic;
+
+}
+
+
+
+/*IMAGE*/
+img{
+	display:block;
+	width: auto;
+	margin-left:auto;
+	margin-right:auto;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+}
+
+
+span a{
+	color : #4169E1;
+	font-style: italic;
+
+}
+
+
+/*BORDURE DES PARTIES*/
+.iceberg {
+	padding-left: 10px;
+	margin-top: 20px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+	padding-bottom: 10px;
+	font-size: 19px;
+
+
+}
+
+.création{
+	margin-right: 8.5%;
+	float: right;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 80px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	position:absolute;
+	right:30px;
+	top:30px;
+	border-radius: 10px;
+
+		
+}
+
+
+
+/* ****************************************************
+**************LE ASIDE*********************************
+*******************************************************/
+aside{
+	margin-top: 10px;
+	display: inline-block;
+	float: right;
+	width: 90%;
+	padding-right: 5%;
+	text-align: center;
+
+}
+
+aside h1 {
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+aside img{
+	width: 100px;
+	height: 100px;
+}
+
+a:hover{
+	color: green;
+	cursor: pointer;
+}
+
+
+
+/*Ligne qui sépare le main du footer*/
+.bordure {
+	border-bottom:1px solid white;
+	width: 85%;
+	margin-left: 5%;	
+	clear: both;
+}
+
+
+
+/* ****************************************************
+**************LE FOOTER********************************
+*******************************************************/
+
+footer{
+	color: white;
+	text-align : center;	
+	clear: both;
+}
+footer p{
+width: 100%;
+}
+
+/* LIEN POUR NOUS CONTACTER */
+footer a {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+footer a:hover{
+	color: green;
+	cursor: pointer;
+	width: 100%;
+}

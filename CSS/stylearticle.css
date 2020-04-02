@@ -1,0 +1,151 @@
+body{
+	background-color: black;
+	color: white;	
+	font-family: Noto Sans, sans-serif;
+
+}
+
+
+/******************************************************
+**************le MENU DE NAVIGATION********************
+*******************************************************/
+nav{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	word-spacing: 25px;
+	border-color: green;
+	font-size: 20px;
+
+
+}
+.menunav{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 25px;
+	padding-left: 35px;
+}
+.menunav:hover{
+	color: green;
+}
+nav:hover{
+	color: green;
+	cursor: pointer;
+}
+#contactt{
+	float: right;
+}
+
+
+
+/******************************************************
+**************LE MAIN**********************************
+*******************************************************/
+
+section {
+	position: static;
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+	padding: 10px;
+	margin-top: 1%;
+	text-align: justify;
+}
+
+#iceberg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2{
+	font-style: italic;
+}
+
+span{
+	font-style: italic;
+
+}
+/******************************************************
+**************LE ASIDE*********************************
+*******************************************************/
+
+aside {
+	position:fixed;
+	left: 60%;
+	width: 30%;
+	margin-top: 1%;
+	float: right;
+	font-size: 22px;
+	margin-right: 10%;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px 5px 10px 5px;
+	font-size: 20px;
+}
+
+aside li {
+	padding-top: 20px;
+}
+
+aside p{
+	text-align: center;
+}
+.lien {
+	color: white;
+}
+
+.lien:hover {
+	color: green;
+	cursor: pointer;
+}
+
+
+
+/******************************************************
+**************LE FOOTER********************************
+*******************************************************/
+
+/*Ligne qui sépare le main du footer*/
+.bordure {
+	border-bottom:1px solid white;
+	width: 85%;
+	margin-left: 5%;	
+	clear: both;
+}
+
+footer{
+	color: white;
+	text-align : center;	
+	width: 100%;
+	clear: both;
+	padding-top: 10px;
+}
+footer p{
+	width: 100%;
+}
+
+/* LIEN POUR NOUS CONTACTER */
+footer a {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+footer a:hover{
+	color: green;
+	cursor: pointer;
+	width: 100%;
+}

@@ -1,0 +1,153 @@
+body{
+	background-color: black;
+	color: white;	
+	font-family: Noto Sans, sans-serif;
+
+}
+
+/******************************************************
+**************le MENU DE NAVIGATION******************* 
+*******************************************************/
+nav{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	word-spacing: 25px;
+	border-color: green;
+	font-size: 20px;
+
+
+}
+.menunav{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 25px;
+	padding-left: 35px;
+}
+.menunav:hover{
+	color: green;
+}
+nav:hover{
+	color: green;
+	cursor: pointer;
+}
+#contactt{
+	float: right;
+}
+
+/******************************************************
+**************LE MAIN"******************* 
+*******************************************************/
+main{
+	width: 90%;
+}
+
+/*L'image du groupe*/
+
+#notreimage{
+	display: block;
+	height: 575px;
+	width: 1024px;
+	margin-left: 16%;	
+	border-style:solid;
+	border-color:white;
+	border-radius: 10px;
+	border-width: 1px;
+	margin-bottom:7%;
+}
+
+/*les bordure de tous ce qui concerne les information de contact"*/
+
+#border{
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	border-width: 2px;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+/*le titre de"QUI SOMME NOUS ?"*/
+#qui{
+	text-transform: uppercase;
+	text-align: center;	
+	font-size: 30px;
+}
+
+
+
+/*L'article qui nous present*/
+article{
+	font-size: 20px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	border-width: 2px;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-right: 1%;
+	margin-left: 1%;
+	
+}
+
+/*Nos information de contact*/
+
+
+
+.imageid{
+	height: 150px;
+	width: 200px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	border-width: 2px;
+	margin-left: 65px;
+	margin-bottom: 5%;	
+}
+
+.presentation{
+	text-align: center;
+	padding-right: 5%;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+	border-width: 2px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+
+/*Ligne qui sépare le main du footer*/
+.bordure {
+	border-bottom:1px solid white;
+	width: 85%;
+	margin-left: 5%;	
+	clear: both;
+}
+
+/******************************************************
+**************LE FOOTER********************************
+*******************************************************/
+
+footer{
+	color: white;
+	text-align : center;	
+	clear: both;
+}
+footer p{
+width: 100%;
+}
+
+/* LIEN POUR NOUS CONTACTER */
+footer a {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+footer a:hover{
+	color: green;
+	cursor: pointer;
+	width: 100%;
+}
